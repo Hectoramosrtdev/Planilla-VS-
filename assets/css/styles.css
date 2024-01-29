@@ -1,18 +1,8 @@
 /*===== VARIABLES CSS ROOT =====*/
-  /*:root {
+:root {
 
-  --bitcoin-orange: #f7931a;
-  --soft-orange: #ffe9d5;
-  --secondary-blue: #1a9af7;
-  --soft-blue: #e7f5ff;
-  --warm-black: #282623;
-  --black: #201e1c;
-  --grey: #bababa;
-  --off-white: #faf8f7;
-  --just-white: #fff;
+
   }
-
-  */
 
 * {
   margin: 0;
@@ -27,16 +17,16 @@ html {
 
 
   /*===== HEADER =====*/
-  header {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    min-width: 320px;
-    height: 334px;
-    text-align: center;
-    background-color: red;
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background-color: red;
 }
 
 
