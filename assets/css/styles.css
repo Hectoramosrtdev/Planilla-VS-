@@ -1,19 +1,51 @@
-/*===== GOOGLE FONTS =====*/
-
-
-
 /*===== VARIABLES CSS ROOT =====*/
+  /*:root {
+
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --grey: #bababa;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  }
+
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
 
 
+  /*===== HEADER =====*/
+  header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background-color: red;
+}
 
-  /*===== Colores =====*/
-  /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
-  /* HSL color mode */
 
-
-
-  /*===== Fuente y tipografia =====*/
- 
+  /*===== MAIN =====*/
+  main {
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
 
 
   /*===== Margenes =====*/
@@ -21,7 +53,7 @@
 
 
   /*===== z index =====*/
- 
+
 
 
 /*===== BASE =====*/
@@ -66,7 +98,12 @@
 
 
 /* ===== FOOTER =====*/
-
+footer{
+  display: flex;
+  width: 100%;
+  height: 206px;
+  background-color: green;
+}
 
 
 /* ===== MEDIA QUERIES=====*/
